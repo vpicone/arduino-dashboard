@@ -1,0 +1,28 @@
+{
+  "name": "hydration-station",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc"
+  },
+  "keywords": [],
+  "author": "Vince Picone",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "serialport": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/react": "^17.0.14",
+    "@types/serialport": "^8.0.2",
+    "typescript": "^4.3.5"
+  }
+}
